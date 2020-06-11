@@ -1,6 +1,7 @@
 package Components_R;
 
 public class CompositeDemo {
+	
     public static StringBuffer compositeBuilder = new StringBuffer();
 
     public static void main(String[] args) {

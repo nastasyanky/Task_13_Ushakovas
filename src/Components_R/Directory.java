@@ -3,14 +3,15 @@ package Components_R;
 import java.util.ArrayList;
 
 public class Directory implements AbstractFile {
-    private String name;
 
-    private ArrayList includedFiles = new ArrayList();
+   private String name;
+
+   private ArrayList includedFiles = new ArrayList();
 
     public Directory(String name) {
         this.name = name;
-
     }
+
     public void add(Object obj) {
         includedFiles.add(obj);
     }
